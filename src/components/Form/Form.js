@@ -96,4 +96,4 @@ const Form = ({setAgePerson}) => {
     );
 };
 
-export default Form;
+export default React.memo(Form);
